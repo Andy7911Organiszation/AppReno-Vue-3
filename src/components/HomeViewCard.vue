@@ -34,7 +34,7 @@ export default defineComponent({
 <style scoped>
     .outer-rectangle {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 55% 45%;
         background-color : #FFF8E8;
         height: fit-content;
         padding: 10px 0px 0px 20px;
@@ -56,7 +56,8 @@ export default defineComponent({
     .btn {
         border : 1px solid #A7725D;
         padding : 10px 45px;
-        border-radius: 5%
+        border-radius: 5%;
+    
     }
     .btn-full {
         background-color : #A7725D;
