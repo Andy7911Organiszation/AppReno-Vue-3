@@ -14,9 +14,10 @@
             </div>
         </div>
         <!-- Right colums buttons-->
-        <div>
+        <div class="image-div">
             <img src="@/assets/images/reno-construction-home.png" >
         </div>
+        
     </main>
 </template>
 
@@ -32,6 +33,7 @@ export default defineComponent({
 
 
 <style scoped>
+
     .outer-rectangle {
         display: grid;
         grid-template-columns: 55% 45%;
@@ -40,6 +42,7 @@ export default defineComponent({
         padding: 10px 0px 0px 20px;
         border-radius: 2%;
         box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
+        overflow: clip;
     }
 
     .left-col-card {
@@ -74,6 +77,15 @@ export default defineComponent({
         transform: scale(.98);
         background-color : #df9a7e;
         color:white
+    }
+    
+    .image-div {
+       position: relative;
+    }
+
+    img {
+        position: relative;
+        left : 50px;
     }
 
     
